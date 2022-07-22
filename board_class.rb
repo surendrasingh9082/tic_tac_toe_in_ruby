@@ -1,7 +1,7 @@
 class Board
   attr_reader :board
   def initialize
-    puts "enter one of the following "
+    puts "Enter one of the following "
     puts "0 | 1 | 2"
     puts "---------"
     puts "3 | 4 | 5"
