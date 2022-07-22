@@ -10,12 +10,10 @@ class Board
     @board = [" "," "," "," "," "," "," "," "," "]
   end
 
-
   def board_update(position, symbol)
     @board[position] = symbol
     game_board_display(@board)
   end
-
 
 
   def game_board_display (board)

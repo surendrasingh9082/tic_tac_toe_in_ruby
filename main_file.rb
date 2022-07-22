@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 require './condition_module'
 require './draw_check'
 require './play_again'

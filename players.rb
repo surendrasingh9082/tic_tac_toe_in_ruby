@@ -1,7 +1,6 @@
 # This is class Players
 class Players
   attr_reader :player1, :player2
-
   def initialize
     puts "Player 1,  enter your name"
     @player1 = gets.chomp
